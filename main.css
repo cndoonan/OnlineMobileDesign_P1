@@ -1,0 +1,738 @@
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ff3030+1,172111+90,172111+90,000000+100 */
+/* Fonts */
+/*Matrix II OT Bold Italic
+
+font-family: matrix-ii, serif;
+
+font-weight: 700;
+
+font-style: italic;
+
+
+Matrix II OT Bold
+
+font-family: matrix-ii, serif;
+
+font-weight: 700;
+
+font-style: normal;
+
+
+Matrix II OT Reg Italic
+
+font-family: matrix-ii, serif;
+
+font-weight: 400;
+
+font-style: italic;
+
+
+Matrix II Inline OT Extra Bold
+
+font-family: matrix-ii-display-inline-ext, sans-serif;
+
+font-weight: 800;
+
+font-style: normal;
+
+
+Matrix II Inline OT Italic
+
+font-family: matrix-ii-display-inline-ita, sans-serif;
+
+font-weight: 400;
+
+font-style: normal;
+
+
+Matrix II Inline OT Script
+
+font-family: matrix-ii-display-inline-scr, sans-serif;
+
+font-weight: 500;
+
+font-style: normal;
+*/
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background: #910000;
+background: -moz-linear-gradient(top,  #910000 1%, #000000 100%);
+background: -webkit-linear-gradient(top,  #910000 1%,#000000 100%);
+background: linear-gradient(to bottom,  #910000 1%,#000000 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#910000', endColorstr='#000000',GradientType=0 );
+
+}
+
+@media screen and (min-width: 600px) {
+ 
+    
+    img{
+        width: 100%
+        overflow: hidden;
+    }
+
+
+h1 {
+    font-family: matrix-ii-display-inline-ext, sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 120px;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    margin: 0;
+     !important
+}
+
+h2 {
+    font-family: matrix-ii-display-inline-ext, sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 50px;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    margin: 0;
+     !important
+}
+
+h3 {
+    font-family: matrix-ii-display-inline-ext, sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 50px;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+     !important
+    text-align: center
+}
+
+h4{
+  /*  width: 50px; */
+    font-family: matrix-ii-display-inline-ext, sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 24px;
+    color: white;
+    text-align: left;
+
+margin: 0px;
+}
+    
+h5{
+    width: 50px;
+    font-family: matrix-ii-display-inline-ext, sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 18px;
+    color: white;
+     padding: 10px;
+    text-align: center;
+}
+
+button {
+    -webkit-appearance: button;
+    -webkit-writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    color: white;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: center;
+    align-items: center;
+    cursor: default;
+    background-color: red;
+    box-sizing: border-box;
+    margin: 0px 300px;
+    padding: 8px 10px;
+    border-width: 10px;
+    border-style: outset;
+    border-color: red;
+    border-image: initial;
+    font-family: matrix-ii, serif;
+
+font-weight: 700;
+
+font-style: italic;
+font-size: 20px
+}
+
+chiliarrow{
+    padding="20px 0px 0px 0px";
+}
+.topnav {
+    overflow: hidden;
+    background-color: ;
+    position: relative;
+}
+
+.topnav #myLinks {
+    position: inherit;
+    background-color: #910000;
+    right: 0;
+    display: none;
+    font-family: matrix-ii, serif;
+
+    font-weight: 700;
+
+    font-style: italic;
+    color: blue;
+    font-size: 36px;
+}
+
+.topnav a {
+    color: white;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 30px;
+    display: block;
+}
+
+.topnav a.icon {
+    background: ;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.active {
+    background-color: ;
+    color: white;
+}
+
+
+
+a:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: antiquewhite;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:active {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+move{
+    padding: 0px 100px;
+    background-color: aqua;
+}
+
+.backgroundimage {
+    position: fixed;
+    max-height: 600px;
+    z-index: 1;
+}
+
+.holder {
+    height: 100vh;
+    grid-gap: 10px;
+    padding: 10px;
+    grid-template-columns:
+        [col1] 1fr [col2] 1fr [col3] 1fr [col4] 1fr;
+    grid-template-rows:
+        [row1] 1fr [row2] 1fr [row3] 1fr [row4] 1fr;
+
+    display: grid;
+}
+
+
+.blockone {
+    background-color: ;
+    grid-column: 1 / span 4;
+    grid-row: 2 / 4;
+    text-align: center;
+
+}
+
+.blocktwo {
+    background-color: aliceblue;
+    grid-column: 1 / span 2;
+    grid-row: 1/2;
+}
+
+.blockthree {
+    background-color: ;
+    grid-column: 1 / span 4;
+    grid-row: 1 / 1;
+
+}
+
+.blockfour {
+    background-color: ;
+    grid-column: 2 / span 2;
+    padding: 10px 160px;
+}
+
+.holdertwo {
+    height: 100vh;
+    grid-gap: 10px;
+    padding: 100px 10px 10px 10px;
+    grid-template-columns:
+        [col1] 1fr [col2] 1fr [col3] 1fr [col4] 1fr;
+    grid-template-rows:
+        [row1] 1fr [row2] 1fr [row3] 1fr [row4] 1fr;
+    display: grid;
+}
+
+.chiliholdertwo {
+    height: 100vh;
+    grid-gap: 10px;
+    padding: 100px 10px 10px 10px;
+    grid-template-columns:
+        [col1] .5fr [col2] .5fr [col3] .5fr [col4] .5fr;
+    grid-template-rows:
+        [row1] 0fr [row2] .5fr [row3] .5fr [row4] .5fr;
+    display: grid;
+}
+
+.twoblockone {
+    background-color: ;
+    grid-column: 1 / span 4;
+    grid-row: 2 / 3;
+
+}
+
+.twoblocktwo {
+    background-color: ;
+    grid-column: 1 / span 2;
+    grid-row: 1/2;
+    padding-left: 210px;
+    position: inherit;
+}
+.chilitwoblocktwo {
+    background-color: ;
+    grid-column: 1 / span 4;
+    grid-row: 1/1;
+    padding: 0px 0px 0px 210px;
+}
+
+.twoblockthree {
+    color: white;
+    grid-column: 1 / span 4;
+    grid-row: 3 / 5
+    font-family: matrix-ii, serif;
+    padding: 0px 80px;
+    font-size: 28px;
+
+font-weight: 700;
+
+font-style: italic;
+}
+
+.chilitwoblockthree {
+    background-color: ;
+    grid-column: 1 / span 4;
+    grid-row: 2 / 3;
+}
+
+.twoblockfour {
+    background-color: cadetblue;
+    grid-column: 2 / span 2;
+}
+
+.rcpholder {
+    height: 100vh;
+    grid-gap: 10px;
+    padding: 10px 10px 10px 10px;
+    grid-template-columns:
+        [col1] .25fr [col2] .25fr [col3] .25fr [col4] .25fr [col5] .25fr;
+    grid-template-rows:
+        [row1] .75fr [row2] .75fr [row3] .75fr [row4] .75fr [row5] .75fr [row6] .75fr;
+    display: grid;
+}
+
+.rcpblockone {
+    background-color: ;
+    grid-column: 1 / span 5;
+    grid-row: 2 / 2;
+
+}
+
+.rcpblocktwo {
+    background-color: ;
+    grid-column: 1 / span 5;
+    grid-row: 3 / 3;
+}
+
+.rcpblockthree {
+   background-color: ;
+    grid-column: 1 / span 5;
+    grid-row: 1 / 1;
+
+}
+
+.rcpblockfour {
+    background-color: ;
+    grid-column: 1 / span 5;
+    grid-row: 3 / 6;
+    overflow:inherit;
+    padding-top: 50px
+}
+
+     
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 580px){
+    image {
+    width: 100px;
+}
+
+
+
+h1 {
+    font-family: matrix-ii-display-inline-ext, sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 70px;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    margin: 0;
+     !important
+}
+
+h2 {
+    font-family: matrix-ii-display-inline-ext, sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 50px;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    margin: 0;
+     !important
+}
+
+h3 {
+    font-family: matrix-ii-display-inline-ext, sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 30px;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+     !important
+}
+
+h4{
+  /*  width: 50px; */
+    font-family: matrix-ii-display-inline-ext, sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 18px;
+    color: white;
+     padding: 10px 0px 20px 0px;
+    text-align: left;
+margin: 0px;
+}
+h5{
+    width: 50px;
+    font-family: matrix-ii-display-inline-ext, sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 18px;
+    color: white;
+     padding: 10px;
+    text-align: center;
+}
+
+button {
+    -webkit-appearance: button;
+    -webkit-writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    color: white;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: center;
+    align-items: center;
+    cursor: default;
+    background-color: red;
+    box-sizing: border-box;
+    margin: 0px 110px;
+    font: 400 13.3333px Arial;
+    padding: 1px 6px;
+    border-width: 2px;
+    border-style: outset;
+    border-color: red;
+    border-image: initial;
+    font-family: matrix-ii, serif;
+
+font-weight: 700;
+
+font-style: italic;
+}
+
+chiliarrow{
+    padding="20px 0px 0px 0px";
+}
+.topnav {
+    overflow: hidden;
+    background-color: ;
+    position: relative;
+}
+
+.topnav #myLinks {
+    position: inherit;
+    background-color: #910000;
+    right: 0;
+    display: none;
+    font-family: matrix-ii, serif;
+
+    font-weight: 700;
+
+    font-style: italic;
+    color: white;
+    font-size: 36px;
+}
+
+.topnav a {
+    color: white;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+}
+
+.topnav a.icon {
+    background: ;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.active {
+    background-color: ;
+    color: white;
+}
+
+
+
+a:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: antiquewhite;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:active {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+move{
+    padding: 0px 100px;
+    background-color: aqua;
+}
+
+.backgroundimage {
+    position: fixed;
+    max-height: 600px;
+    z-index: 1;
+}
+
+.holder {
+    height: 100vh;
+    grid-gap: 10px;
+    padding: 10px;
+    grid-template-columns:
+        [col1] 1fr [col2] 1fr [col3] 1fr [col4] 1fr;
+    grid-template-rows:
+        [row1] 1fr [row2] 1fr [row3] 1fr [row4] 1fr;
+
+    display: grid;
+}
+
+
+.blockone {
+    background-color: ;
+    grid-column: 1 / span 4;
+    grid-row: 2 / 4;
+    text-align: center;
+
+}
+
+.blocktwo {
+    background-color: aliceblue;
+    grid-column: 1 / span 2;
+    grid-row: 1/2;
+}
+
+.blockthree {
+    background-color: ;
+    grid-column: 1 / span 4;
+    grid-row: 1 / 1;
+
+}
+
+.blockfour {
+    background-color: ;
+    grid-column: 2 / span 2;
+    padding-left: 60px;
+}
+
+.holdertwo {
+    height: 100vh;
+    grid-gap: 10px;
+    padding: 100px 10px 10px 10px;
+    grid-template-columns:
+        [col1] 1fr [col2] 1fr [col3] 1fr [col4] 1fr;
+    grid-template-rows:
+        [row1] 1fr [row2] 1fr [row3] 1fr [row4] 1fr [row5] 1fr ;
+    display: grid;
+}
+
+.chiliholdertwo {
+    height: 100vh;
+    grid-gap: 10px;
+    padding: 100px 10px 10px 10px;
+    grid-template-columns:
+        [col1] .5fr [col2] .5fr [col3] .5fr [col4] .5fr;
+    grid-template-rows:
+        [row1] 0fr [row2] .5fr [row3] .5fr [row4] .5fr;
+    display: grid;
+}
+
+.twoblockone {
+    background-color: ;
+    grid-column: 1 / span 4;
+    grid-row: 2 / 3;
+
+}
+
+.twoblocktwo {
+    background-color: ;
+    grid-column: 1 / span 2;
+    grid-row: 1/2;
+    padding-left: 20px;
+}
+.chilitwoblocktwo {
+    background-color: ;
+    grid-column: 1 / span 4;
+    grid-row: 1/1;
+    padding: 0px 70px;
+}
+
+.twoblockthree {
+    color: white;
+    grid-column: 1 / span 4;
+    grid-row: 3 / 4;
+    font-family: matrix-ii, serif;
+    padding: 0px 20px;
+
+font-weight: 700;
+
+font-style: italic;
+}
+
+.chilitwoblockthree {
+    background-color: ;
+    grid-column: 1 / span 4;
+    grid-row: 2 / 3;
+}
+
+.twoblockfour {
+    background-color: cadetblue;
+    grid-column: 2 / span 2;
+}
+
+.rcpholder {
+    height: 100vh;
+    grid-gap: 10px;
+    padding: 10px 10px 10px 10px;
+    grid-template-columns:
+        [col1] 1fr [col2] 1fr [col3] 1fr [col4] 1fr [col5] 1fr;
+    grid-template-rows:
+        [row1] 1fr [row2] 1fr [row3] 1fr [row4] 1fr [row5] 1fr [row6] 1fr;
+    display: grid;
+}
+
+.rcpblockone {
+    background-color: ;
+    grid-column: 1 / span 5;
+    grid-row: 2 / 2;
+
+}
+
+.rcpblocktwo {
+    background-color: ;
+    grid-column: 1 / span 5;
+    grid-row: 3 / 3;
+}
+
+.rcpblockthree {
+   background-color: ;
+    grid-column: 1 / span 5;
+    grid-row: 1 / 1;
+
+}
+
+.rcpblockfour {
+    background-color: ;
+    grid-column: 1 / span 5;
+    grid-row: 4 / 6;
+    overflow:inherit;
+}
+
+    
+    
+}
+
+
+
